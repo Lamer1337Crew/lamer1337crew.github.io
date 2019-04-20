@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang='en'>
+  <head>
+    <title>VanGans Official | Lamer Karatan</title>
+    <link rel="SHORTCUT ICON" href="https://abaykan.com/wp-content/uploads/2019/01/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lamer Karatan">
+    <meta name="keywords" content="blog, VanGans, VanGans Official ">
+    <meta name="author" content="VanGans">
+    <meta name="og:description" content="Lamer Karatan">
+    <meta name="og:title" content="VanGans Official | Lamer Karatan">
+    <meta name="og:type" content="article">
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/35039013" />
+    <style type="text/css">
+    * {
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    }
+    body {
+    background-color: #289dcc;
+    }
+    .blue {
+    color: #29b6f6;
+    }
+    .green {
+    color: #9ccc65;
+    }
+    .purple {
+    color: #ba68c8;
+    }
+    .cyan {
+    color: #4dd0e1;
+    }
+    .red {
+    color: #ef5350;
+    }
+    .content {
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .card {
+    -webkit-perspective: 150rem;
+    perspective: 150rem;
+    height: 20rem;
+    width: 30rem;
+    position: relative;
+    }
+    .card__side {
+    height: 15rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 30rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    }
+    .card__side--front {
+    background-color: #1c1c1c;
+    }
+    .card__side--back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: #1c1c1c;
+    }
+    .card:hover .card__side--front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    }
+    .card:hover .card__side--back {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    }
+    .card__cont {
+    height: 15rem;
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    color: white;
+    }
+    .card__cta p {
+    margin-left: 1rem;
+    }
+    .card__cta p > .space {
+    margin-left: 2rem;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="card">
+        <div class="card__side card__side--front">
+          <!-- Depan -->
+          <div class="card__cont">
+            <span class="blue">alert</span><span>(<span class="green">'Hello World!'</span>)</span>
+          </div>
+        </div>
+        <div class="card__side card__side--back">
+          <!-- Belakang -->
+          <div class="card__cta">
+            <p><span class="purple">const</span> aboutMe <span class="cyan">=</span> {
+            <br />
+            <span class="space red">name</span><span class="cyan">:</span> <span class="green">'Muhammad Irvan Al-Mahdi'</span>,
+            <br/>
+            <span class="space red">email</span><span class="cyan">:</span> <span class="green">'dawnysabun110@gmail.com</span>',
+            <br/>
+            <span class="space red">website</span><span class="cyan">:</span> <span class="green">'https://bukanakumas.com/'</span>
+            <br/> };
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
